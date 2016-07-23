@@ -1,0 +1,269 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Univers LT, sans-serif;
+}
+
+ul {
+  font-size: 18px;
+}
+.row {
+  display: inline-block;
+}
+
+.page{
+  height: 100vh;
+  border-bottom: 10px solid white;
+}
+
+h1 .smalltitle {
+  font-size: 60px;
+  font-style: italic;
+}
+h1 {
+  font-size: 80px ;
+  font-style: italic;
+}
+
+
+.homepage {
+  display: relative;
+}
+
+.pagetwo{
+  display: relative;
+}
+
+
+div.homepage p {
+  background: white;
+  color: black;
+  font-size: 55px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+
+#group {
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+
+.pagethreewrapper {
+  display: inline-block;
+  position: relative;
+}
+
+#one {
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-right:150px;
+  margin-top: 100px;
+  border: 10px solid white;
+}
+
+#two {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin-left: 150px;
+  margin-top: 100px;
+  border: 10px solid white;
+}
+
+.row {
+  display: inline-block;
+  width: 100%;
+}
+
+.designer {
+  width: 35%;
+  float: left;
+}
+
+.pagefourcontent {
+  width: 65%;
+  float: right;
+}
+
+.body-text {
+  padding: 100px 60px 30px 60px;
+}
+
+#designerhimself {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+#fi {
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+}
+
+#entstehung {
+  width: 100%;
+  height: auto;
+  margin-top: 35px;
+}
+
+.resuleft{
+  width: 45%;
+  float: right;
+
+}
+.resucontent {
+  width: 65%;
+  float: right;
+}
+
+#resultat {
+  width: 100%;
+  height: auto;
+  margin-top: 55px;
+}
+
+#resubody {
+  padding: 0px 0px 30px 60px;
+}
+
+#resupic {
+  width: 55%;
+  height: auto;
+  margin-top: -50px;
+}
+
+#sysdiv {
+  width: 50%;
+  float: left;
+}
+
+#syscontent {
+  width: 50%;
+  float: right;
+}
+
+#syspic {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.relative {
+  display: inline-block;
+  position: relative;
+}
+
+#anwendung {
+  margin: 250px 0 0 500px;
+  border-bottom: 1px white solid;
+  width: auto;
+}
+
+#anwendunglist {
+  margin: 50px 80px auto auto;
+  display: inline-block;
+  position: absolute;
+}
+
+#listborderleft {
+  height: 300px;
+  width: 500px;
+  border-right: 20px solid white;
+  border-bottom: 1px solid white;
+  display: inline-block;
+}
+
+
+li {
+  padding: 15px;
+}
+
+
+#strasstitel {
+  margin: 180px 530px 50px 50px;
+  background: white;
+  color: black;
+}
+
+.img-gallery {
+  display: inline-block;
+  width: 100%;
+  padding: 50px 0 50px 0;
+  position: relative;
+}
+
+#img-right {
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-right:200px;
+  border: 10px solid white;
+}
+
+#img-left {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin-left: 200px;
+  border: 10px solid white;
+}
+
+#muenchen {
+  position: absolute;
+  height: auto;
+  width: auto;
+  right: 120px;
+  top: 400px;
+}
+
+.gallerytwo {
+  display: inline-block;
+  width: 100%;
+  padding: 50px;
+  position: relative;
+}
+
+#logoshead {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.picbox {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+#audi {
+  width: 180px;
+  height: auto;
+}
+
+#bank{
+  width: 180px;
+  height: auto;
+}
+
+#fedex{
+  width: 180px;
+  height: auto;
+}
+
+#olym{
+  width: auto;
+  height: 180px;
+}
+
+#swiss{
+  width: 180px;
+  height: auto;
+}
