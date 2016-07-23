@@ -4,6 +4,11 @@ body {
     font-family: Univers LT, sans-serif;
 }
 
+strong{
+  font-weight: 600;
+  font-size: 20px;
+}
+
 ul {
   font-size: 18px;
 }
@@ -14,6 +19,7 @@ ul {
 .page{
   height: 100vh;
   border-bottom: 10px solid white;
+  position: relative;
 }
 
 h1 .smalltitle {
@@ -25,25 +31,18 @@ h1 {
   font-style: italic;
 }
 
-
-.homepage {
-  display: relative;
-}
-
-.pagetwo{
-  display: relative;
-}
-
-
-div.homepage p {
+#homepagetitle {
   background: white;
   color: black;
+  font-weight: bolder;
   font-size: 55px;
   position: absolute;
   top: 50%;
   left: 50%;
+  margin-top: 0;
   margin-right: -50%;
-  transform: translate(-50%, -50%) }
+  transform: translate(-50%, -50%)
+}
 
 #group {
   border-radius: 1em;
@@ -51,8 +50,21 @@ div.homepage p {
   position: absolute;
   top: 50%;
   left: 50%;
+  margin-top: 0;
   margin-right: -50%;
   transform: translate(-50%, -50%) }
+
+#universone {
+  text-align: center;
+  font-size: 80px;
+  margin: 10px;
+}
+
+#universtwo {
+  text-align: center;
+  font-size: 13px;
+  font-weight: lighter;
+}
 
 .pagethreewrapper {
   display: inline-block;
@@ -100,6 +112,10 @@ div.homepage p {
   width: 100%;
   height: auto;
   margin-top: 10px;
+}
+
+#pagefourlist {
+  padding-left: 20px;
 }
 
 #fi {
@@ -161,8 +177,64 @@ div.homepage p {
   position: relative;
 }
 
+.boldbody {
+  padding: 50px;
+}
+
+#nomen {
+  font-size: 25px;
+}
+
+#bold {
+  font-size: 60px;
+  text-align: center;
+}
+
+#bold::first-letter {
+  background: white;
+  color: black;
+  display: inline-block;
+  padding: 0 13px 0 5px;
+}
+
+#bold span {
+  background: white;
+  color: black;
+  display: inline-block;
+  padding: 0 13px 0 5px;
+}
+
+.sixleftbox {
+  float: left;
+  width: 400px;
+  padding-left: 100px;
+}
+
+.sixrightbox {
+  float: left;
+  width: 400px;
+  padding-left: 100px;
+}
+
+#sixlisttitle{
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 22px;
+  background-color: white;
+  color: black;
+  margin-top: 80px;
+}
+
+#sixlist {
+  padding-left: 0;
+}
+#sixlist li{
+  list-style: none;
+  padding: 5px 0;
+}
+
 #anwendung {
-  margin: 250px 0 0 500px;
+  margin: 180px 0 0 500px;
   border-bottom: 1px white solid;
   width: auto;
 }
@@ -188,7 +260,7 @@ li {
 
 
 #strasstitel {
-  margin: 180px 530px 50px 50px;
+  margin: 100px 530px 50px 50px;
   background: white;
   color: black;
 }
@@ -237,33 +309,38 @@ li {
     right: 300px;
 }
 
+#picwrapper {
+  margin: 300px 20px;
+}
+
 .picbox {
-  width: 200px;
-  height: 200px;
-  display: inline-block;
+  float: left;
+  width: 150px;
+  padding:40px;
 }
 
 #audi {
-  width: 180px;
+  width: 150px;
   height: auto;
 }
 
 #bank{
-  width: 180px;
+  width: 150px;
   height: auto;
 }
 
 #fedex{
-  width: 180px;
+  width: 150px;
   height: auto;
 }
 
 #olym{
   width: auto;
-  height: 180px;
+  height: 150px;
 }
 
 #swiss{
   width: 180px;
   height: auto;
+  margin-top: -40px;
 }
