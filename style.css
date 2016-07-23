@@ -17,7 +17,7 @@ ul {
 }
 
 .page{
-  height: 100vh;
+  height: 768px;
   border-bottom: 10px solid white;
   position: relative;
 }
